@@ -5,31 +5,18 @@ Use it for your book, by adding to your book.json:
 
 ```
 {
-    "plugins": ["katex"]
+    "plugins": ["katex@git+https://github.com/erictt/plugin-katex.git#2.0.0"]
 }
 ```
 
-then run `gitbook install`.
-
-## Usage
+Block `\\[...\\]`, sample:
 
 ```
-Inline math: $$\int_{-\infty}^\infty g(x) dx$$
-
-
-Block math:
-
-$$
-\int_{-\infty}^\infty g(x) dx
-$$
-
-Or using the templating syntax:
-
-{% math %}\int_{-\infty}^\infty g(x) dx{% endblock %}
+\\[\sin(\frac{\pi}{2}) = 1\\]
 ```
 
+Inline `\\(...\\)`, sample:
 
-### Comparison with [MathJax](https://github.com/GitbookIO/plugin-mathjax)
-
-- Faster
-
+```
+\\(\sin(\frac{\pi}{2}) = 1\\)
+```
