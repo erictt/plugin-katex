@@ -372,7 +372,6 @@
   text-align: center;
 }
 .katex .mfrac .frac-line {
-  min-height: 1px;
   display: inline-block;
   width: 100%;
   border-bottom-style: solid;
@@ -388,7 +387,7 @@
   .katex .mfrac .frac-line,
   .katex .overline .overline-line,
   .katex .underline .underline-line {
-    min-height: 0.5px;
+    min-height: 1px;
   }
 }
 .katex .mspace {
