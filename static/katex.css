@@ -386,7 +386,7 @@
   .katex .mfrac .frac-line,
   .katex .overline .overline-line,
   .katex .underline .underline-line {
-    min-height: 0.5px;
+    min-height: 1px;
   }
 }
 .katex .mspace {
