@@ -24,7 +24,8 @@ module.exports = {
             process: function(blk) {
                 var tex = blk.body;
                 var output = katex.renderToString(tex, {
-                    displayMode: true
+                    displayMode: true,
+                    colorIsTextColor: true
                 });
 
                 return output;
@@ -39,7 +40,8 @@ module.exports = {
             process: function(blk) {
                 var tex = blk.body;
                 var output = katex.renderToString(tex, {
-                    displayMode: false
+                    displayMode: false,
+                    colorIsTextColor: true
                 });
 
                 return output;
